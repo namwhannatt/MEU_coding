@@ -1,0 +1,654 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    font-size: 20px;
+} 
+.navbar-brand img{
+    font-family: 'MuseoModerno', cursive;
+    color: #24ab84;
+    width: 70px;
+    height: auto;
+    margin-top: -5px;
+    overflow: hidden;
+}
+.navbar-inverse .navbar-nav li a.active{
+    color: #24ab84;
+}
+.navbar-right{
+    display: none;
+}
+li.dropdown {
+    display: inline;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    list-style: none;
+  }
+.dropdown-content a {
+    color:   #D9D9D9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    background-color: #ffffff;
+  }
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color:  #24ab84;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.navbar-right{
+    display: inline;
+}
+/* section-1 */
+.box-section-1{
+    float: left;
+    width: 100%;
+    height: 170px;
+    /* background-color:#D9D9D9; */
+}
+.header{
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: #24ab84;
+}
+/* section-2 step */
+
+.box-section-2{
+    float: left;
+    width: 100%;
+    height: 50px;
+    /* background-color: peru; */
+}
+.box-section-2 hr{
+    border-top: 2px dashed #D9D9D9;
+    margin: 0px 15%;
+    width: 70%;
+}
+.box-step{
+    /* background-color: purple; */
+    width: 33.33%;
+    height: 30px;
+    float: left;
+    text-align: center;
+    margin-top: -15px;
+    box-sizing: border-box;
+}
+.step{
+    width: 30px;
+    height: 30px;
+    background-color: #f1f1f1;
+    /* border-style: 4px #000000; */
+    border-radius: 15px;
+    margin: 0px 50px;
+    padding-top: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+.box-step p{
+    font-family: 'Kanit', sans-serif; 
+    font-size: 15px;
+    color: #D9D9D9;
+}
+.box-step .active{
+    background-color: #24ab84;
+    color:#ffffff;
+}
+.box-step .text-active{
+    color: #24ab84;
+}
+
+/* section-3 เลือกหมอ ลงไป */
+.box-text-header{
+    width: 100%;
+    height: 70px;
+    /* background-color: bisque; */
+    float: left;
+    padding: 0px 7%;
+}
+.text-header{
+    font-family: 'Kanit', sans-serif; 
+    font-size: 25px;
+    color: #5a5a5a;
+}
+.bg-box{
+    /* background-color:cadetblue; */
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.bg-box .box-content{
+    float: left;
+    width: 300px;
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    margin: 10px 35px;
+    border-color: #D9D9D9;
+    cursor: pointer;
+}
+.box-section .bg-box .active{
+    color: #24ab84;
+    border-color: #24ab84;
+}
+.box-content .text{
+    font-family: 'Kanit', sans-serif; 
+    font-size: 20px;
+    color: #D9D9D9;
+    margin: 15px 5px 10px 10px;
+    /* background-color: aqua; */
+}
+.box-content .icon-right{
+    float: right;
+    margin: 5px 10px;
+}
+.bg-box .box-content:hover{
+    border-color: #24ab84;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+.box-content p:hover{
+    color: #24ab84;
+}
+/* botton */
+.bg-botton{
+    /* background-color: bisque; */
+    float: left;
+    width: 80%;
+    height: 170px;
+    margin: 0px 10%;
+    text-align: center;
+    padding-top: 60px;
+    border-bottom: 1px solid #5a5a5a;
+    margin-bottom: 80px;
+}
+.button{
+    width: 150px;
+    height: 42px;
+    color: #ffffff;
+    background-color: #24ab84;
+    font-family: 'Kanit', sans-serif; 
+    font-size: 18px;
+    border-radius: 15px;
+}
+.button:hover{
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    color: #24ab84;
+    background-color: #ffffff;
+}
+
+/* section-6  time/calendar */
+.margin-text-header{
+    margin-top: 20px;
+}
+/* ปฏิทิน */
+header{
+	text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px; 
+    color: #5a5a5a;
+}
+#calendar-wrap .fallbackDatePicker{
+    text-align: center;
+    float: left;
+    margin: 10px 5%;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    width: 300px;
+    font-size: 18px;
+}
+#calendar {
+	width: 90%;	
+    margin: 0px 5%;
+    float: left;
+    height: 550px;
+    /* background-color: black; */
+}
+#calendar a {
+	color: #24ab84;
+	text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+}
+#calendar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+#calendar li{
+	display: block;
+	float: left;
+	width:14.342%;
+	padding: 5px;
+	box-sizing:border-box;
+	/* border: 1px solid #ccc; */
+	margin-right: -1px;
+	margin-bottom: -1px;
+    border-radius: 10px;
+}
+#calendar ul.weekdays {
+	height: 40px;
+	background: #24ab84;
+    font-family: 'Kanit', sans-serif;
+    border-radius: 10px;
+    font-size: 8px;
+}
+#calendar ul.weekdays li {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+}
+#calendar .weekdays .week{
+    font-size: 7px;
+}
+.event{
+    height: 40px;
+}
+.event-time{
+    overflow: hidden;
+    display: none;
+}
+/* #calenda .days .day .active{
+    color: red;
+} */
+#calendar .days li {
+    height: 80px;
+}
+#calendar .days li:hover {
+	background: #d3d3d3;
+    cursor: pointer;
+    display: block;
+}
+#calendar .date {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	background: #24ab84;
+	color: #fff;
+	border-radius: 50%;
+	float: right;
+    width: 20px;
+    height: 20px;
+    font-size: 10px
+}
+#calendar .prerious{
+    background:#d3d3d3;
+	color: #f5f5f5;
+}
+#calendar .next{
+    background:#d3d3d3;
+	color: #f5f5f5;
+}
+#calendar .event {
+	clear: both;
+	display: block;
+	font-size: 8px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #e4f2f2;
+	border: 1px solid #b5dbdc;
+	color: #009aaf;
+	text-decoration: none;
+}
+#calendar .event-desc {
+	color: #666;
+	margin: 3px 0 7px 0;
+	text-decoration: none;
+    overflow: hidden ;
+    font-size: 6px;
+}
+#calendar .other-month {
+	background: #f5f5f5;
+}
+.box-time{
+    width: 90%;
+    height: 500px;
+    margin: 0px 5%;
+    float: left;
+    /* background-color: pink; */
+    box-sizing: border-box;
+}
+.bg-time{
+    width: 100%;
+    height: 450px;
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.bg-time h1{
+    color: #24ab84;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.sec-time{
+    float: left;
+}
+.time{
+    width: 125px;
+    height: 40px;
+    background-color:#f5f5f5;
+    margin: 10px 5px;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.time:hover{
+    background-color:#24ab84;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out
+}
+.sec-time .active-time{
+    background-color: #24ab84;
+    color: #ffffff;
+}
+/* กรอกข้อมูล */
+
+.box-section-7{
+    /* background-color: black; */
+    float: left;
+    width: 100%;
+}
+.box-section-7 .bg-box .active{
+    border-color: #24ab84;
+    color: #24ab84;
+}
+#box-input{
+    float: left;
+}
+.input{
+    float: left;
+    width: 300px;
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 15px;
+    margin: 10px 35px;
+    border-color: #D9D9D9;
+    cursor: pointer;
+    padding: 0px 15px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.bigger{
+    height: 200px;
+}
+
+/* footer */
+.footer{
+    background-color: #24ab84;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.footer-bigger-moblie{
+    display: none;
+}
+.footer-moblie .logo-footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-moblie i{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-moblie i:hover{
+    color: #777777;
+    transition: all 0.2s ease-in-out;
+}
+.footer-moblie .copyright{
+    font-size: 10px;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* ============================
+				Tablet Responsiveness date
+   ============================*/
+
+@media(min-width: 768px) {
+
+    .navbar-inverse .navbar-nav li{
+        font-size: 14px;
+        font-family:'Glyphicons Halflings'
+    }
+    #calendar .weekdays .week{
+        font-size: 15px;
+    }
+    #calendar {
+        width: 90%;	
+        margin: 0px 5%;
+    }
+    .event-time, .event-desc{
+        font-size: 8px;
+    }
+	#calendar .date {
+		float: none;
+	}
+    .fallbackDatePicker{
+        margin: 10px 5%;
+        width: 350px;
+        font-size: 18px;
+        float: left;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .time{
+        font-size: 18px;
+        margin: 25px 30px;
+        width: 150px;
+    }
+    #box-input{
+        width: 50%;
+    }
+    .bigger{
+        width: 90%;
+    }
+    .step{
+        margin: 0px 110px;
+    }
+
+    /* footer  */
+    .footer-moblie{
+        display: none;
+    }
+    .footer-bigger-moblie{
+        display: inline;
+        width: 100%;
+        height: 270px;
+        background-color: #24ab84;
+        float: left;
+    }
+    .footer-1{
+        width: 25%;
+        height: 270px;
+        padding-top: 40px;
+        float: left;
+    }
+    .footer-2{
+        width: 25%;
+        height: 270px;
+        padding-top: 40px;
+        float: left;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+    }
+    .footer-3{
+        width: 25%;
+        height: 270px;
+        padding-top: 40px;
+        float: left;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+    }
+    .footer-3 i{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .footer-4{
+        width: 25%;
+        height: 270px;
+        padding-top: 40px;
+        float: left;
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        text-align: left;
+    }
+    .footer-4 i{
+        margin-right: 5px;
+        font-size: 20px;
+    }
+    .copyright{
+        color: #fff;
+        font-family: 'Kanit', sans-serif;
+        font-size: 9px;
+        margin-top: -20px;
+        float: left;
+        margin-left: 37%;
+    }
+}
+    
+/* ============================
+				Destop Responsiveness date
+   ============================*/
+
+   @media(min-width: 1020px) { 
+    
+    .navbar-inverse .navbar-nav li{
+        font-size: 14px;
+        font-family:'Glyphicons Halflings'
+    }
+    header{
+        width: 60%;
+        float: left;
+        /* background-color: black; */
+        margin: 0px;
+    }
+    .navbar-right{
+        display: inline;
+    }
+    .box-fallbackDatePicker{
+        float: right;
+    }
+    #calendar {
+        width: 60%;	
+        float: left;
+        margin: 0px 2%;
+        height: 640px;
+    }
+    #calendar ul.weekdays li {
+        color: #fff;
+        font-size: 20px;
+    }
+    .event-desc{
+        overflow: hidden ;
+        font-size: 15px;
+    }
+    .event{
+        height: 50px;
+    }
+    #calendar .date {
+        width: 30px;
+        height: 30px;
+    }
+    #calendar .days li {
+        height: 100px;
+    }
+    .fallbackDatePicker{
+        margin: 10px 0px;
+        width: 450px;
+        font-size: 20px; 
+    }
+    .event-time{
+        display: inline;
+    }
+    .box-time{
+        width: 30%;
+        height: 640px;
+        margin: 0px 2%;
+        float: left;
+    }
+    .bg-time{
+        height: 580px;
+        display: block;
+    }
+    .time{
+        margin: 25px 20px;
+    }
+    #box-input{
+        width: 600px;
+        margin: 0px 50px;
+        /* background-color: black; */
+    }
+    .input{
+        width: 500px;
+    }
+    .bigger{
+        width: 90%;
+        float: left;
+        margin: 0px 5%;
+    }
+    .bg-box .box-content{
+        width: 500px;
+        float: left;
+    }
+    .bg-box{
+        /* background-color: black; */
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .step{
+        margin: 0px 220px;
+    }
+    .box-section-2 hr{
+        margin: 0px 17%;
+        width: 65%;
+    }
+
+    /* footer  */
+    .footer-2{
+        font-size: 20px;
+    }
+    .footer-3{
+        font-size: 20px;
+    }
+    .footer-3 i{
+        font-size: 25px;
+    }
+    .footer-4{
+        font-size: 20px;
+    }
+    .copyright{
+        margin-left: 40%;
+        font-size: 11px;
+    }
+}

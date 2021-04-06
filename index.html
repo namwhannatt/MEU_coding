@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="57x57" href="images/Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/Favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeandYou</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                pager:false
+            });
+        });
+    </script> -->
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="images/logo-Meu.png"></a>
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div><!-- navbar-header -->
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="index.html" class="active">หน้าแรก</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropbtn">บริการ</a>
+                            <div class="dropdown-content">
+                              <a href="#">ค้นหาแพทย์</a>
+                              <a href="feature.html" class="active">นัดหมายแพทย์</a>
+                              <a href="#">ค้นหาคลีนิก</a>
+                              <a href="#">ปรึกษาพูดคุย</a>
+                            </div>
+                        </li>
+                        <li><a href="#">แพทย์ที่ปรึกษา</a></li>
+                        <li><a href="#">ค่าบริการ</a></li>
+                        <li><a href="#">กระทู้</a></li>
+                        <li><a href="#">ติดต่อเรา</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">เข้าสู่ระบบ</a></li>
+                        <li><a href="#">สมัครสมาชิก</a></li>
+                    </ul>
+                </div>
+
+            </div><!-- container -->
+        </nav>
+
+        <div class="cover-banner">
+            <div class="fill cover-img">
+                <div class="cover-text">
+                    <h2>แบบทดสอบความเครียด</h2>
+                    <p>หากไม่แน่ใจว่าคุณจำเป็นต้องปรึกษาจิตแพทย์หรือไม่ ลองทำแบบประเมินด้วยตัวเองก่อนเพื่อช่วยตัดสินใจ
+                    </p>
+                    <div class="button-text">
+                        <h3>เริ่มทำแบบทดสอบ</h3>
+                    </div>
+                </div>
+            </div>
+        </div><!-- cover-banner -->
+    </header>
+
+    <!-- function-1 -->
+    <div class="container-fuc">
+       
+
+            <div class="box-function">
+                <li class="function-item active ll">
+                    <img src="images/1.png">
+                    <p>ค้นหาแพทย์</p>
+                </li>
+
+                <li class="function-item">
+                    <img src="images/4.png">
+                    <p>นัดหมายแพทย์</p>
+                </li>
+
+                <li class="function-item active ll">
+                    <img src="images/3.png">
+                    <p>ค้นหาคลีนิก</p>
+                </li>
+
+                <li class="function-item">
+                    <img src="images/2.png">
+                    <p>คุยกับแพทย์</p>
+                </li>
+            </div>
+
+    </div><!-- bg-app-section -->
+
+    <!-- app -->
+    <section>
+        <div class="app-section">
+            <div class="caption-header">
+                <h2>MEU คืออะไร?</h2>
+                <p>เราคือ platform ปรึกษาจิตแพทย์ออนไลน์ เพื่อรับฟังปัญหาของคุณ
+                    เราพร้อมเป็นที่ปรึกษาให้คุณด้วยความจริงใจ
+                    เราให้ความสำคัญกับความเป็นส่วนตัว เพื่อให้คุณรู้สึกผ่อนคลายและหายกังวลจากปัญหาของคุณ</p>
+            </div>
+            <div class="app-img-left">
+                <img src="images/kisspng-iphone-x-mobile-app-handheld-devices-smartphone-po-5b818cc725da49.png">
+            </div>
+
+            <div class="app-img-right">
+                <img class="icon1" src="images/Android.png">
+                <img class="icon2" src="images/App-store.png">
+            </div>
+        </div>
+        <!-- app-section -->
+
+        <div class="app-section-bigger-moblie">
+
+            <div class="app-img-left">
+                <img src="images/kisspng-iphone-x-mobile-app-handheld-devices-smartphone-po-5b818cc725da49.png">
+            </div>
+
+            <div class="caption-header">
+                <h2 class="text-why">MEU คืออะไร?</h2>
+                <p class="text-why">เราคือ platform ปรึกษาจิตแพทย์ออนไลน์ เพื่อรับฟังปัญหาของคุณ
+                    เราพร้อมเป็นที่ปรึกษาให้คุณด้วยความจริงใจ
+                    เราให้ความสำคัญกับความเป็นส่วนตัว เพื่อให้คุณรู้สึกผ่อนคลายและหายกังวลจากปัญหาของคุณ</p>
+            </div>
+            <div class="app-img-right">
+                <img class="icon1" src="images/Android.png">
+                <img class="icon2" src="images/App-store.png">
+            </div>
+        </div><!-- app-section-bigger-moblie -->
+
+    </section>
+
+    <!-- doctor list -->
+
+    <section>
+        <div class="doctor-list">
+            <div class="header-doctor">
+                <h1>แพทย์ที่ปรึกษา</h1>
+            </div>
+            <!-- <ul class="bxslider">  -->
+                <div class="doctor-flaot">
+                    <li class="doctor-1">
+                        <div class="bg-img">
+                            <img
+                                src="images/Baixe-Bela-Jovem-Doutora-Olhando-A-Câmera-No-Escritório_-gratuitamente.png">
+                            <p>Ms. Poppy Smith</p>
+                        </div>
+                    </li>
+
+                    <li class="doctor-2">
+                        <div class="bg-img">
+                            <img
+                                src="images/Baixe-Bela-Jovem-Doutora-Olhando-A-Câmera-No-Escritório_-gratuitamente11.png">
+                            <p>Ms. Kanokporn Saewoon</p>
+                        </div>
+                    </li>
+                </div>
+
+                <li class="doctor-3">
+                    <div class="bg-img">
+                        <img src="images/Baixe-Bela-Jovem-Doutora-Olhando-A-Câmera-No-Escritório_-gratuitamente1.png">
+                        <p>Mr. Ditch Ken</p>
+                    </div>
+                </li>
+
+            <div class="button-more-doctorlist">
+                <p>เพิ่มเติม</p>
+            </div>
+        </div><!-- doctor-list -->
+        
+    </section>
+
+    <!-- why have to be MEU -->
+
+    <section>
+        <div class="container-why">
+            <div class="section-header">
+                <h2>ทำไมต้อง MEU</h2>
+                <p class="section-text">สิ่งที่ MEU ให้ความใส่ใจ</p>
+            </div>
+
+            <ul>
+                <li class="section-item">
+                    <div class="media">
+                        <div class="media-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">มั่นใจได้ว่าเป็นความลับ</h3>
+                            <p class="media-text">ความรับของคุณคือความลับของเรา เราให้ความสำคัญต่อข้อมูลของคุณ
+                                มีแต่แพทย์ผู้ดูแลเคสเท่านั้นที่ทราบข้อมูลของคุณ</p>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="section-item">
+                    <div class="media">
+                        <div class="media-icon">
+                            <i class="fas fa-hourglass-half"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">ไม่เสียเวลารอ</h3>
+                            <p class="media-text">แทนที่จะต้องนั่งรอพบแพทย์ที่โรงพยาบาล
+                                คุณสามารถเลือกพบแพทย์ในเวลาไหนก็ได้ที่คุณสะดวก</p>
+                        </div>
+
+                    </div>
+                </li>
+
+                <li class="section-item">
+                    <div class="media">
+                        <div class="media-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">แพทย์ผู้เชียวชาญ</h3>
+                            <p class="media-text">ประสบการณ์และชั่วโมงบินของนักจิตวิทยาสำคัญมาก
+                                นักจิตวิทยาทุกคนต้องผ่านการฝึกฝนในงานเฉพาะทางนี้มากกว่า 5,000 ชั่วโมงขึ้นไป</p>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+
+        </div><!-- container -->
+    </section>
+
+    <!-- ค่าบริการ  -->
+    <section class="section-price">
+        <div class="section-header">
+            <h2>ค่าบริการ</h2>
+        </div>
+        <ul class="price-based">
+
+            <div class="wrapper-price">
+                <li class="bg-basic active">
+                    <h1>BASIC</h1>
+                    <div class="media-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <div class="media-icon-check">
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">พบปะนัดหมายแพทย์</p>
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">ป้องกัน บรรเทาและวินิจฉัย</p>
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">นัดหมายได้ 1 ครั้ง</p>
+                        <i class="fas fa-check-circle"></i>
+                        <p>ประเมินร่วมกับสุขภาพร่างกาย</p>
+                    </div>
+                    <hr class="line-style">
+                    <div class="price">
+                        <p class="start-active">เริ่มต้นที่</p>
+                        <h1>1,000</h1>
+                        <p>บาท</6>
+                        <h6>ต่อครั้ง(30 นาที)</h6>
+                    </div>
+                    <div class="booking">
+                        <div class="text-book">
+                            <p>สร้างการนัดหมาย <i class="fas fa-plus-circle"></i></p>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="bg-basic">
+                    <h1>PREMIUM</h1>
+                    <div class="media-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="media-icon-check">
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">พบปะนัดหมายแพทย์</p>
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">ป้องกัน บรรเทาและวินิจฉัย</p>
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">นัดหมายได้ 1 ครั้ง</p>
+                        <i class="fas fa-check-circle active"></i>
+                        <p class="text-active">ประเมินร่วมกับสุขภาพร่างกาย</p>
+                    </div>
+                    <hr class="line-style">
+                    <div class="price">
+                        <p class="start-active">เริ่มต้นที่</p>
+                        <h1>2,800</h1>
+                        <p>บาท</6>
+                        <h6>ต่อครั้ง(30 นาที)</h6>
+                    </div>
+                    <div class="booking">
+                        <div class="text-book">
+                            <p>สร้างการนัดหมาย <i class="fas fa-plus-circle"></i></p>
+                        </div>
+                    </div>
+                </li>
+            </div>
+        </ul>
+    </section>
+
+    <!-- บล๊อก -->
+    <section class="bg-blog">
+        <div class="section-header">
+            <h2>บล็อก</h2>
+        </div>
+        <div class="bg-blog-item">
+            <ul>
+                <li class="blog-work">
+                    <div class="blog-img">
+                        <img src="images/Two Styles of Girls illustrations.png" class="fluid-img">
+                    </div>
+                    <div class="blog-text">
+                        <h1>7 เทคนิคทางจิตวิทยา คิดบวกเพิ่มความรักตัวเอง</h1>
+                        <p>จากสถิติของกรมสุขภาพจิต พบว่า ในปี 2563 คนไทยมีอัตราการฆ่าตัวตายสำเร็จอยู่ที่ 7.3
+                            ต่อประชากรหนึ่งแสนคน หรือคิดเป็น 4,855 คน ซึ่งเพิ่มขึ้น...จากสถิติของกรมสุขภาพจิต พบว่า ในปี
+                            2563 คนไทยมีอัตราการฆ่าตัวตายสำเร็จอยู่ที่ 7.3
+                            ต่อประชากรหนึ่งแสนคน หรือคิดเป็น 4,855 คน ซึ่งเพิ่มขึ้น...</p>
+                    </div>
+                </li>
+
+                <li class="blog-work">
+                    <div class="blog-img">
+                        <img src="images/A Person Relaxing At Home.jpg" class="fluid-img">
+                    </div>
+                    <div class="blog-text">
+                        <h1>5 วิธีปลุก passion ในชีวิต แม้จะต้องทำงานที่ไม่ชอบ</h1>
+                        <p>จากสถิติของกรมสุขภาพจิต พบว่า ในปี 2563 คนไทยมีอัตราการฆ่าตัวตายสำเร็จอยู่ที่ 7.3
+                            ต่อประชากรหนึ่งแสนคน หรือคิดเป็น 4,855 คน ซึ่งเพิ่มขึ้น...จากสถิติของกรมสุขภาพจิต พบว่า ในปี
+                            2563 คนไทยมีอัตราการฆ่าตัวตายสำเร็จอยู่ที่ 7.3
+                            ต่อประชากรหนึ่งแสนคน หรือคิดเป็น 4,855 คน ซึ่งเพิ่มขึ้น...</p>
+                    </div>
+                </li>
+
+                <li class="blog-work">
+                    <div class="blog-img">
+                        <img src="images/young-vintage-woman-working-desk-with-laptop-front-her-writer-block-concept-beauty-blogger-creativity-crisis-work-start.jpg"
+                            class="fluid-img">
+                    </div>
+                    <div class="blog-text">
+                        <h1>นักจิตวิทยาแนะนำ 3 แนวทางการจัดการกับความเครียดในช่วงเรียน
+                            ออนไลน์</h1>
+                        <p>จากกระแสของชาวเน็ตเกี่ยวกับการเรียนออนไลน์ของนักเรียนนักศึกษา
+                            ที่ส่วนหนึ่งก็อยากจะให้เลื่อนการเปิดเทอมแล้วเรียนแบบออนไลน์แทนไปก่อน
+                            เพราะยัง...จากกระแสของชาวเน็ตเกี่ยวกับการเรียนออนไลน์ของนักเรียนนักศึกษา
+                            ที่ส่วนหนึ่งก็อยากจะให้เลื่อนการเปิดเทอมแล้วเรียนแบบออนไลน์แทนไปก่อน เพราะยัง...</p>
+                    </div>
+                </li>
+                <li class="blog-work active">
+                    <div class="blog-img">
+                        <img src="images/COUPLE.jpg" class="fluid-img">
+                    </div>
+                    <div class="blog-text">
+                        <h1>นักจิตวิทยาแนะนำ 3 แนวทางการจัดการกับความเครียดในช่วงเรียน
+                            ออนไลน์</h1>
+                        <p>นักจิตวิทยาได้ทำการศึกษาวิจัยมากมาย เกี่ยวกับการรักตัวเองอย่างเหมาะสม และนำมาซึ่ง 4
+                            คำถามที่จะช่วยให้คุณได้กลับมาสำรวจว่า คุณรัก หรือ หลงนักจิตวิทยาได้ทำการศึกษาวิจัยมากมาย
+                            เกี่ยวกับการรักตัวเองอย่างเหมาะสม และนำมาซึ่ง 4
+                            คำถามที่จะช่วยให้คุณได้กลับมาสำรวจว่า คุณรัก หรือ หลง...</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="button-more">
+                <p>เพิ่มเติม</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer-bigger-moblie">
+
+            <div class="footer-1">
+                <div class="logo-footer">
+                    <img src="images/logo-V2.png">
+                </div>
+            </div>
+            <div class="footer-2">
+                <div class="tex-footer">
+                    <p>บริการ</p>
+                    <p>แพทย์ที่ปรึกษา</p>
+                    <p>ค่าบริการ</p>
+                    <p>กระทู้</p>
+                    <p>ติดต่อเรา</p>
+                </div>
+            </div>
+            <div class="footer-3">
+                <div class="tex-footer">
+                    <p>ติดต่อเรา</p>
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fab fa-line"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fas fa-envelope"></i>
+                    <p>แอปพลิเคชัน</p>
+                    <i class="fab fa-android"></i>
+                    <i class="fab fa-apple"></i>
+                </div>
+            </div>
+            <div class="footer-4">
+                <div class="tex-footer">
+                    <p>เงื่อนไขการใช้งาน</p>
+                    <p>นโยบายการคืนเงิน</p>
+                    <p>นโยบาลความเป็นส่วยตัว</p>
+                    <p><i class="fas fa-globe"></i>EN</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2024 meandyou.com All rights reserved.</p>
+            </div>
+        </div><!-- footer-bigger-moblie -->
+
+        <div class="footer-moblie">
+            <div class="footer-1">
+
+                <div class="logo-footer">
+                    <img src="images/logo-V2.png">
+                </div><!-- logo-footer -->
+                <div class="tex-footer">
+                    <i class="fas fa-mobile-alt"></i>
+                    <i class="fab fa-line"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fas fa-envelope"></i>
+                </div><!-- tex-footer -->
+                <div class="copyright">
+                    <p>Copyright © 2024 meandyou.com All rights reserved.</p>
+                </div><!-- copyright -->
+
+            </div>
+
+        </div><!-- footer-moblie -->
+
+    </footer>
+
+</body>
+
+</html>
